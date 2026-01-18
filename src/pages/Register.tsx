@@ -43,12 +43,15 @@ const Register = () => {
     }
   };
 
-  return (
-    <div className="min-h-screen flex items-center justify-center bg-primary_dark">
+  return <>
+  
+      <div className="min-h-screen flex items-center justify-center bg-primary_dark">
+
       <form
         onSubmit={handleSubmit}
         className="bg-black p-6 rounded-xl w-96"
       >
+        
         <h1 className="text-2xl font-bold text-winter mb-6 text-center">
           Create Account
         </h1>
@@ -96,13 +99,16 @@ const Register = () => {
 
         <p className="text-sm text-center text-winter mt-4">
           Already have an account?{" "}
+
           <Link to="/login" className="text-blue underline">
             Login
           </Link>
         </p>
       </form>
     </div>
-  );
+  
+  
+  </>
 };
 
 export default Register;

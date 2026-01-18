@@ -10,8 +10,10 @@ const Booking = () => {
     navigate("/cars");
   };
 
-  return (
-    <div className="max-w-4xl mx-auto px-6 mt-16 text-winter">
+  return <>
+  
+  
+   <div className="max-w-4xl mx-auto px-6 mt-16 text-winter">
       <h1 className="text-3xl font-bold mb-4">
         Confirm Your Booking
       </h1>
@@ -27,7 +29,9 @@ const Booking = () => {
         Confirm Booking
       </button>
     </div>
-  );
+  
+  
+  </>
 };
 
 export default Booking;

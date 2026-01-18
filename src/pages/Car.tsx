@@ -70,8 +70,11 @@ const Car = () => {
 
 
 
-    return (
-        <div>
+    return <>
+    
+ 
+
+      <div>
 
             <input
                 type="text"
@@ -112,7 +115,9 @@ const Car = () => {
 
 
         </div>
-    );
+    
+    
+    </>
 };
 
 export default Car;

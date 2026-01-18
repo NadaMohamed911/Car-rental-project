@@ -42,8 +42,9 @@ const Login: React.FC = () => {
 
 
 
-  return (
-    <div className="min-h-screen flex items-center justify-center bg-primary_dark">
+  return <>
+  
+      <div className="min-h-screen flex items-center justify-center bg-primary_dark">
       <form
         onSubmit={handleLogin}
         className="bg-black
@@ -78,7 +79,10 @@ const Login: React.FC = () => {
         </button>
       </form>
     </div>
-  );
+  
+  
+  
+  </>
 };
 
 export default Login;

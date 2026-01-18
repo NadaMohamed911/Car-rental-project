@@ -64,8 +64,10 @@ const EditCar = () => {
 
     if (loading) return <p className="text-winter">Loading...</p>;
 
-    return (
-        <form onSubmit={handleSubmit} className="max-w-md mx-auto mt-10 bg-black p-6 rounded-xl">
+    return <>
+    
+    
+       <form onSubmit={handleSubmit} className="max-w-md mx-auto mt-10 bg-black p-6 rounded-xl">
 
 
           <Link to="/cars" className="text-blue mb-4 inline-block">
@@ -93,7 +95,9 @@ const EditCar = () => {
 
             <button className="w-full bg-blue py-2 rounded mt-4">Save Changes</button>
         </form>
-    );
+    
+    
+    </>
 };
 
 export default EditCar;

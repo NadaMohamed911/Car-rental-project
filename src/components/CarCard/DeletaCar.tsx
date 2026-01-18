@@ -18,8 +18,9 @@ const CarCard = ({ car, onDelete }: Props) => {
     }
   };
 
-  return (
-    <div className="border p-4 rounded">
+  return <>
+  
+   <div className="border p-4 rounded">
       <h3>{car.name}</h3>
 
       <button
@@ -32,7 +33,10 @@ const CarCard = ({ car, onDelete }: Props) => {
         Delete
       </button>
     </div>
-  );
+  
+  
+  
+  </>
 };
 
 export default CarCard;

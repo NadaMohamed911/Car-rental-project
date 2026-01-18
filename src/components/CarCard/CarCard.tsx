@@ -15,8 +15,10 @@ interface CarCardProps {
 
 
 const CarCard: React.FC<CarCardProps> = ({ image, name, price, id, onDelete }) => {
-  return (
-    <div className="border rounded-xl overflow-hidden shadow hover:shadow-lg transition-shadow duration-300 mt-5">
+  return <>
+  
+  
+   <div className="border rounded-xl overflow-hidden shadow hover:shadow-lg transition-shadow duration-300 mt-5">
       <img
         src={image}
         alt={name}
@@ -57,7 +59,9 @@ const CarCard: React.FC<CarCardProps> = ({ image, name, price, id, onDelete }) =
 
       </div>
     </div>
-  );
+  
+  
+  </>
 };
 
 export default CarCard;

@@ -35,7 +35,9 @@ const CarDetails = () => {
         return <p className="text-red-500">Car not found</p>;
     }
 
-    return (
+    return <>
+    
+    
         <div className="max-w-4xl mx-auto mt-10 text-winter">
 
             <Link to="/cars" className="text-blue mb-4 inline-block">
@@ -78,7 +80,9 @@ const CarDetails = () => {
                 </div>
             </div>
         </div>
-    );
+    
+    
+    </>
 };
 
 export default CarDetails;

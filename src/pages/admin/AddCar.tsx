@@ -48,8 +48,10 @@ const AddCar = () => {
     }
   };
 
-  return (
-    <div className="max-w-md mx-auto mt-10 bg-black p-6 rounded-xl">
+  return <>
+  
+  
+  <div className="max-w-md mx-auto mt-10 bg-black p-6 rounded-xl">
 
       <Link to="/cars" className="text-blue mb-4 inline-block">
         Back to Cars
@@ -75,7 +77,10 @@ const AddCar = () => {
         </button>
       </form>
     </div>
-  );
+  
+  
+  
+  </>
 };
 
 export default AddCar;

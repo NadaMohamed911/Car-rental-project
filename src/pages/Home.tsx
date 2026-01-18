@@ -15,8 +15,9 @@ const Home = () => {
             .catch(console.log);
     }, []);
 
-    return (
-        <div className="max-w-7xl mx-auto px-6 mt-10 ">
+    return <>
+    
+            <div className="max-w-7xl mx-auto px-6 mt-10 ">
 
             <h1 className="text-3xl font-bold text-winter mb-6">
                 Featured Cars
@@ -39,7 +40,9 @@ const Home = () => {
                 ))}
             </div>
         </div>
-    );
+    
+    
+    </>
 };
 
 export default Home;

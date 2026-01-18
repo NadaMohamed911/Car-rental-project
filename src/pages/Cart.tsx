@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { getCart, removeFromCart } from "../services/CartService";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Cart = () => {
   const [cart, setCart] = useState<any[]>([]);
@@ -21,6 +21,12 @@ const Cart = () => {
   );
 
   return <>
+
+        <Link to="/cars" className="text-blue mb-4 inline-block">
+        Back to Cars
+      </Link>
+
+
   
    <div className="max-w-5xl mx-auto px-6 mt-10 text-winter">
       <h1 className="text-3xl font-bold mb-6">Your Cart</h1>
