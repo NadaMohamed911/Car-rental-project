@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@config "../tailwind.config.ts";
+
+@theme{
+
+--primary_dark:'#070F2B';
+--blue_dark:'#1B1A55';
+--blue:'#535C91';
+--blue_light:'#9290C3';
+--winter:'#F8FAFC'
+
+}
